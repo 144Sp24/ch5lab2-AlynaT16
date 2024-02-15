@@ -21,6 +21,29 @@ img {
     display: block;
 }
 
+/* Style rules for mobile viewport */
+
+
+/* Style rules to show mobile class and hide tab-desk class */
+.mobile {
+    display: block;
+}
+
+.tab-desktop {
+    display: none;
+}
+
+/* Style rules for header area */
+.mobile h1 {
+    padding: 2%;
+    text-align: center;
+}
+
+.mobile h3 {
+    padding: 2%;
+    text-align: center;
+}
+
 /* Style rules for navigation area */
 nav {
     background-color: #2a1f14;
@@ -28,7 +51,6 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
     text-align: center;
 }
 
@@ -44,20 +66,27 @@ nav li a {
     color: #f6eee4;
     padding: 0.5em 2em;
     text-decoration: none;
+    border-top-width: 0.5px;
+    border-color: #f6eee4;
 }
 
 /* Style rules for main content */
 main {
     padding: 2%;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: "Lora", serif;
 }
 
 main p {
     font-size: 1.25em;
 }
 
+main h1 {
+    font-family: "Emblema One", system-ui;
+}
+
 main h3 {
     padding-top: 2%;
+    font-family: "Lora", serif;
 }
 
 main ul {
@@ -69,6 +98,7 @@ main ul {
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
+    text-decoration: none;
 }
 
 .action {
@@ -77,8 +107,32 @@ main ul {
     text-align: center;
 }
 
+.round {
+    border-radius: 6px;
+}
+
+#info ul {
+    margin-left: 10%
+}
+
 #contact {
     text-align: center;
+}
+
+.tel-link {
+    background-color: #2a1f14;
+    padding: 2%;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tel-link a {
+    color: #f6eee4;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* Style rules for footer content */
